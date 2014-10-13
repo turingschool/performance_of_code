@@ -245,14 +245,16 @@ end
 
 
 # ==== Fibonacci Sequence ====
-# Run this: $ ruby-prof performance-of-code.rb NUM
+# Run this: $ ruby-prof performance-of-code.rb
 
 # def fib(n)
 #   return n if (0..1).include? n
 #   fib(n-1) + fib(n-2) if n > 1
 # end
 
-# puts fib(ARGV[0].to_i)
+# number = __
+
+# puts fib(number)
 
 
 # ======= Performance with Repeated Calculations ======
