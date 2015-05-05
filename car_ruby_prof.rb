@@ -1,3 +1,5 @@
+require 'ruby-prof'
+
 # =============== Using Ruby Profiler =================
 # Docs: http://ruby-doc.org/stdlib-2.0.0/libdoc/profiler/rdoc/Profiler__.html
 #
@@ -49,6 +51,7 @@ class Car
     (speed / 10.0) * (time / 20.0)
   end
 end
+
 
 car = Car.new
 1000.times do
