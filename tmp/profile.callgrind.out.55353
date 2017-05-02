@@ -1,0 +1,350 @@
+events: wall_time
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+fn=IO#write
+0 31
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+fn=Fixnum#to_s
+0 4
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+fn=IO#puts
+0 7
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#to_s
+calls=1 10
+10 4
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=IO#write
+calls=2 10
+10 31
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+fn=Kernel#puts
+0 9
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=IO#puts
+calls=1 10
+10 42
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+fn=Fixnum#<=>
+0 71306
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+fn=Range#include?
+0 101163
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=2 3
+3 1
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4 3
+3 2
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=8 3
+3 2
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=16 3
+3 3
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=32 3
+3 4
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=64 3
+3 15
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=128 3
+3 16
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=256 3
+3 35
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=512 3
+3 68
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=1024 3
+3 146
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=2048 3
+3 309
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4096 3
+3 571
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=8192 3
+3 1190
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=16380 3
+3 2379
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=32400 3
+3 4525
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=59652 3
+3 8706
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=91276 3
+3 13518
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=105332 3
+3 15495
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=87112 3
+3 12907
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=50464 3
+3 7478
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=20144 3
+3 3002
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=5404 3
+3 784
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=928 3
+3 134
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=92 3
+3 15
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Fixnum#<=>
+calls=4 3
+3 0
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+fn=Object#fib
+2 4
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=1 3
+3 4
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2 4
+4 311132
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2 3
+3 3
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=4 4
+4 311128
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=4 3
+3 4
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=8 4
+4 311119
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=8 3
+3 8
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=16 4
+4 311105
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=16 3
+3 15
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=32 4
+4 311078
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=32 3
+3 23
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=64 4
+4 311023
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=64 3
+3 51
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=128 4
+4 310943
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=128 3
+3 83
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=256 4
+4 310760
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=256 3
+3 171
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=512 4
+4 310388
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=512 3
+3 350
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=1024 4
+4 309641
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=1024 3
+3 721
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2048 4
+4 308167
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2048 3
+3 1402
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=4096 4
+4 305161
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=4096 3
+3 2886
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=8190 4
+4 299216
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=8190 3
+3 5762
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=16200 4
+4 287281
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=16200 3
+3 11206
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=29826 4
+4 264030
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=29826 3
+3 20853
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=45638 4
+4 222967
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=45638 3
+3 32784
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=52666 4
+4 163070
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=52666 3
+3 37425
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=43556 4
+4 97413
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=43556 3
+3 31122
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=25232 4
+4 44878
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=25232 3
+3 18137
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=10072 4
+4 15184
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=10072 3
+3 7199
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2702 4
+4 3596
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2702 3
+3 1913
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=464 4
+4 546
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=464 3
+3 308
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=46 4
+4 54
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=46 3
+3 37
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=2 4
+4 3
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Range#include?
+calls=2 3
+3 3
+
+fl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+fn=Global#[No method]
+10 34
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb
+cfn=Object#fib
+calls=1 10
+10 311140
+cfl=/Users/aleneschlereth/turing/1705/practice/performance_of_code/ruby_runtime
+cfn=Kernel#puts
+calls=1 10
+10 51
+

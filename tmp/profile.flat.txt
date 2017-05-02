@@ -1,0 +1,17 @@
+Measure Mode: wall_time
+Thread ID: 70199525243400
+Fiber ID: 70199541770760
+Total: 0.311225
+Sort by: self_time
+
+ %self      total      self      wait     child     calls  name
+ 32.50      0.172     0.101     0.000     0.071   242785   Range#include?
+ 22.91      0.071     0.071     0.000     0.000   485570   Fixnum#<=>
+  0.01      0.311     0.000     0.000     0.311        1   Global#[No method]
+  0.01      0.000     0.000     0.000     0.000        2   IO#write
+  0.00      0.000     0.000     0.000     0.000        1   Kernel#puts
+  0.00      0.000     0.000     0.000     0.000        1   IO#puts
+  0.00      0.311     0.000     0.000     0.311   242785  *Object#fib
+  0.00      0.000     0.000     0.000     0.000        1   Fixnum#to_s
+
+* indicates recursively called methods

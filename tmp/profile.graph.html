@@ -1,0 +1,470 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <style media="all" type="text/css">
+    table {
+      border-collapse: collapse;
+      border: 1px solid #CCC;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9pt;
+      line-height: normal;
+      width: 100%;
+    }
+
+    th {
+      text-align: center;
+      border-top: 1px solid #FB7A31;
+      border-bottom: 1px solid #FB7A31;
+      background: #FFC;
+      padding: 0.3em;
+      border-left: 1px solid silver;
+    }
+
+    tr.break td {
+      border: 0;
+      border-top: 1px solid #FB7A31;
+      padding: 0;
+      margin: 0;
+    }
+
+    tr.method td {
+      font-weight: bold;
+    }
+
+    td {
+      padding: 0.3em;
+    }
+
+    td:first-child {
+      width: 190px;
+      }
+
+    td {
+      border-left: 1px solid #CCC;
+      text-align: center;
+    }
+
+    .method_name {
+      text-align: left;
+    }
+
+    tfoot td {
+      text-align: left;
+    }
+  </style>
+  </head>
+  <body>
+    <h1>Profile Report: wall_time</h1>
+    <!-- Threads Table -->
+    <table>
+      <tr>
+        <th>Thread ID</th>
+        <th>Fiber ID</th>
+        <th>Total Time</th>
+      </tr>
+
+      <tr>
+        <td>70199525243400</td>
+        <td><a href="#70199541770760">70199541770760</a></td>
+        <td>0.31122517585754395</td>
+      </tr>
+
+    </table>
+    <!-- Methods Tables -->
+
+      <h2><a name="70199541770760">Thread 70199525243400, Fiber: 70199541770760</a></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>%Total</th>
+            <th>%Self</th>
+            <th>Total</th>
+            <th>Self</th>
+            <th>Wait</th>
+            <th>Child</th>
+            <th>Calls</th>
+            <th class="method_name">Name</th>
+            <th>Line</th>
+          </tr>
+        </thead>
+        <tbody>
+
+               <!-- Parents -->
+
+               <tr class="method">
+                 <td>100.00%</td>
+                 <td>0.01%</td>
+                 <td>0.31</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.31</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Global_[No method]_70199541770760">
+                      Global#[No method]
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=10" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:10">10</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.31</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.31</td>
+                   <td>1/242785</td>
+                   <td class="method_name"><a href="#Object_fib_70199541770760">Object#fib</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=10" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:10">10</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Kernel_puts_70199541770760">Kernel#puts</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=10" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:10">10</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.31</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.31</td>
+                   <td>242784/242785</td>
+                   <td class="method_name"><a href="#Object_fib_70199541770760">Object#fib</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=4" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:4">4</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.31</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.31</td>
+                   <td>1/242785</td>
+                   <td class="method_name"><a href="#Global_[No method]_70199541770760">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=10" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:10">10</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>99.97%</td>
+                 <td>0.00%</td>
+                 <td>0.31</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.31</td>
+                 <td>242785</td>
+                 <td class="method_name">
+                   <a name="Object_fib_70199541770760">
+                     *Object#fib
+                   </a>
+                 </td>
+                 <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=2" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:2">2</a></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.31</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.31</td>
+                   <td>242784/242785</td>
+                   <td class="method_name"><a href="#Object_fib_70199541770760">Object#fib</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=4" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:4">4</a></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.17</td>
+                   <td>0.10</td>
+                   <td>0.00</td>
+                   <td>0.07</td>
+                   <td>242785/242785</td>
+                   <td class="method_name"><a href="#Range_include__70199541770760">Range#include?</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=3" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:3">3</a></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.17</td>
+                   <td>0.10</td>
+                   <td>0.00</td>
+                   <td>0.07</td>
+                   <td>242785/242785</td>
+                   <td class="method_name"><a href="#Object_fib_70199541770760">Object#fib</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=3" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:3">3</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>55.42%</td>
+                 <td>32.50%</td>
+                 <td>0.17</td>
+                 <td>0.10</td>
+                 <td>0.00</td>
+                 <td>0.07</td>
+                 <td>242785</td>
+                 <td class="method_name">
+                   <a name="Range_include__70199541770760">
+                      Range#include?
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.07</td>
+                   <td>0.07</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>485570/485570</td>
+                   <td class="method_name"><a href="#Fixnum_____70199541770760">Fixnum#&lt;=&gt;</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.07</td>
+                   <td>0.07</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>485570/485570</td>
+                   <td class="method_name"><a href="#Range_include__70199541770760">Range#include?</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>22.91%</td>
+                 <td>22.91%</td>
+                 <td>0.07</td>
+                 <td>0.07</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>485570</td>
+                 <td class="method_name">
+                   <a name="Fixnum_____70199541770760">
+                      Fixnum#&lt;=&gt;
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Global_[No method]_70199541770760">Global#[No method]</a></td>
+                   <td><a href="txmt://open?url=file:///Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb&line=10" title="/Users/aleneschlereth/turing/1705/practice/performance_of_code/fib_ruby_prof.rb:10">10</a></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.02%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Kernel_puts_70199541770760">
+                      Kernel#puts
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#IO_puts_70199541770760">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Kernel_puts_70199541770760">Kernel#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="IO_puts_70199541770760">
+                      IO#puts
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_write_70199541770760">IO#write</a></td>
+                   <td></td>
+                 </tr>
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#Fixnum_to_s_70199541770760">Fixnum#to_s</a></td>
+                   <td></td>
+                 </tr>
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>2/2</td>
+                   <td class="method_name"><a href="#IO_puts_70199541770760">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.01%</td>
+                 <td>0.01%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>2</td>
+                 <td class="method_name">
+                   <a name="IO_write_70199541770760">
+                      IO#write
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+               <!-- Parents -->
+
+                 <tr>
+                   <td>&nbsp;</td>
+                   <td>&nbsp;</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>0.00</td>
+                   <td>1/1</td>
+                   <td class="method_name"><a href="#IO_puts_70199541770760">IO#puts</a></td>
+                   <td></td>
+                 </tr>
+
+               <tr class="method">
+                 <td>0.00%</td>
+                 <td>0.00%</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>0.00</td>
+                 <td>1</td>
+                 <td class="method_name">
+                   <a name="Fixnum_to_s_70199541770760">
+                      Fixnum#to_s
+                   </a>
+                 </td>
+                 <td></td>
+               </tr>
+               <!-- Children -->
+
+               <!-- Create divider row -->
+               <tr class="break"><td colspan="9"></td></tr>
+
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="9">* indicates recursively called methods</td>
+          </tr>
+        </tfoot>
+      </table>
+
+  </body>
+</html>
